@@ -1,0 +1,28 @@
+JAVA vs Python 
+
+Manual-compile
+.java → (javac) → .class → (JVM) → Machine Code -> Execution
+
+Auto-compile
+.py → (Python) → .pyc → (PVM) → Execution
+
+
+Java:
+Translate a book once → distribute copies → readers read faster
+Compile once, runs everywhere
+Compiled to bytecode, then JIT-compiled (JVM JIT)
+Frequently used code is converted to native machine code
+Static Typing
+Primitive types (int, float) are not objects
+More efficient memory usage
+True multi-threading
+
+
+Python:
+Interpreter reads and explains the book line by line
+Bytecode runs everywhere 
+Executes bytecode instruction by instruction (CPython)
+No aggressive runtime optimization
+Dynamic Typing
+Everything is an object (even integers) --> More memory usage
+GIL allows only one thread to execute Python bytecode at a time
