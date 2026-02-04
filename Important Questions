@@ -1,0 +1,40 @@
+Java - 
+
+
+QA -
+
+
+API - 
+. What is different codes 2xx,4xx,5xx
+. What are types of API testing can be done -
+  > Header Check
+  > Body Check
+  > Active Connection Check
+  > UI Responses if it is not ready
+  > 
+
+
+Maven - 
+.  What is Maven 
+.  Can we use Maven & TestNG both
+.  What is JUnit Parameter to pass
+
+TestNG - 
+. How to acheive Parallel testing
+. Where can we mention it
+. Can we make Method/Class/Test as Parallel
+. TestNG Annotations 
+  > BesforeSuite/AfterSuite  
+  > BeforeTest/AfterTest
+  > BeforeClass/AfterClass
+  > BeforeMethod/AfterMethod
+  > BeforeTest/AfterTest
+  > Test
+
+. TestNG Parameters - 
+  > Order(n..)      any given order for a test to execute
+  > Data
+
+
+TestNG Report - 
+
