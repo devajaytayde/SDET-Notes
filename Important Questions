@@ -121,6 +121,28 @@ import java.util.Map;
 }
 
 
+import java.util.Arrays;
+ //Find if two string are Anagram "TEA" or "EAT"
+public class Main
+{
+	public static void main(String[] args) {
+		
+		
+		String str = "TEA";
+		String str1 = "EAT";
+		
+		char ctr[] = str.toCharArray();
+		char ctr1[] = str1.toCharArray();
+		
+		Arrays.sort(ctr);
+		Arrays.sort(ctr1);
+		
+		System.out.println(Arrays.equals(ctr,ctr1));
+		
+	}
+}
+
+
 
 QA -
 
