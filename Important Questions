@@ -144,6 +144,27 @@ public class Main
 
 
 
+//Remove duplicates integers
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Arrays;
+public class Main
+{
+	public static void main(String[] args) {
+		
+		
+    List<Integer> list = Arrays.asList(1,2,2,3,4,4);
+    
+    //Convert to Hashset
+    HashSet<Integer> hash = new HashSet(list);  
+    
+    System.out.println(hash);
+    
+    
+	}
+}
+
 QA -
 
 
