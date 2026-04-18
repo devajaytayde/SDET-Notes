@@ -59,7 +59,31 @@ public class Main {
     }
 }
 
+//Fix string to HashMap
+import java.util.*;
 
+public class Main {
+    public static void main(String[] args) {
+
+        String str = "8=FIX.4.4|9=112|35=D|49=CLIENT|56=BROKER|11=12345|55=INFY|54=1|38=100|40=2|44=1500|10=128|";
+
+        // FIX 1: escape |
+        String arr[] = str.split("\\|");
+
+        HashMap<String, String> hash = new LinkedHashMap<>();
+
+        for (String s : arr) {
+            String a[] = s.split("=");
+
+            // FIX 2: handle safety
+            if (a.length == 2) {
+                hash.put(a[0], a[1]);
+            }
+        }
+
+        System.out.println(hash);
+    }
+}
  //Count character frequency using Map
 import java.util.HashMap;
 import java.util.Map; 
