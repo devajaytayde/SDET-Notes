@@ -2,5 +2,7 @@ To Run Specific Task -
 1. Goto build.gradle
 2. Right click on specific Task and click Run
 
-or
+or go to Cucumber Gherikin File
+On right top, click on Edit Configuration
+And select task name and run
 
