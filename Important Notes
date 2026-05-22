@@ -1,5 +1,7 @@
 JAVA vs Python 
 
+
+
 Manual-compile
 .java → (javac) → .class → (JVM) → Machine Code -> Execution
 
