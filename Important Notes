@@ -26,3 +26,7 @@ No aggressive runtime optimization
 Dynamic Typing
 Everything is an object (even integers) --> More memory usage
 GIL allows only one thread to execute Python bytecode at a time
+
+
+
+
